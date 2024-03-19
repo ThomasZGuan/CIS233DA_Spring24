@@ -1,11 +1,10 @@
 * {
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
  }
 
 body {
-    background-color: rgb(250, 235, 215);
+    background-color: rgb(225, 229, 242);
 }
 
  nav {
@@ -31,11 +30,11 @@ nav li {
 }
 
 nav .active {
-    background-color: red;
+    background-color: rgb(2, 43, 58);
 }
 
 nav .inactive {
-    background-color: lightgray;
+    background-color: white;
 }
 
 nav .active a {
@@ -56,6 +55,10 @@ table {
     width: 100%;
 }
  
+h1 {
+	color: rgb(2, 113, 135);
+}	
+ 
 #itemWrapper {
     height: 150px;
  }
@@ -66,7 +69,11 @@ table {
 }
 
 #itemList tr:nth-of-type(even){
-    background-color: rgba(157, 12, 138, 0.268);
+    background-color: rgb(191, 219, 247);
+}
+
+#itemList tr:nth-of-type(odd){
+    background-color: white;
 }
 
 #studentList td:nth-child(2) {
@@ -74,9 +81,16 @@ table {
 }
 
 select option:nth-of-type(even) {
-    background-color: rgb(157, 12, 138, 0.268);
+    background-color: rgb(191, 219, 247);
 }
 
 select option {
     padding: 3px;
+}
+
+@media (max-width: 500px){
+	img {
+		width: 270px;
+		height: 385px;
+	}
 }
