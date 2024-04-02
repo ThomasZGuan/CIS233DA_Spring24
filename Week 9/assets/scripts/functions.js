@@ -57,7 +57,7 @@ function parking() {
 }
 
 function setMode() {
-    console.log ('entered setMode()');
+    console.log ('entered setMode()')
     switch (intStatus) {
         case 0: 
             intStatus = 1;
