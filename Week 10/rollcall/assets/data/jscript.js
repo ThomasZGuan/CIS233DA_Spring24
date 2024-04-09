@@ -45,7 +45,7 @@ function getSemester() {
 function getClass(obj) {
     const classList = document.getElementById('classList');
     var semesterID = obj.options[obj.selectedIndex].value;
-    const aryClass = `ary${semesterID}`;
+    const aryClass = eval(`ary${semesterID}`);
     let classListOptions = '';    
     aryClass.map((op,i) => {
         classListOptions += `<option value="${op[0]}">${op[1]}</option>`;
