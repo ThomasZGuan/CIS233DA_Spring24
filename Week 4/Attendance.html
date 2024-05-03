@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="Stylesheet.css" />
+</head>
+<body>
+	<nav>
+		<ul>
+			<li> <a href="Classes.html">Classes</a> </li> 
+			<li> <a href="Students.html">Students</a> </li> 
+			<li id="active">Attendance</li> 
+		</ul>
+	</nav>
+
+	<h1>Select a Class</h1>
+	
+	<form action="/action_page.php">
+		<select style="width: 285px">
+			<option>CIS 133DA</option>
+			<option>CIS 233DA</option>
+			<option>CIS 150AB</option>
+			<option>CIS 105</option>
+		</select>
+		<br><br>
+	</form>
+
+	<div class="buttonlist" id="scroll">
+		<button>Andy <input type="checkbox" style="float: right;"/> </button>
+		<button>Becca <input type="checkbox" style="float: right;"/> </button>
+		<button>Gabriel <input type="checkbox" style="float: right;"/> </button>
+		<button>Jane <input type="checkbox" style="float: right;"/> </button>
+		<button>Michael <input type="checkbox" style="float: right;"/> </button>
+		<button>Sarah <input type="checkbox" style="float: right;"/> </button>
+	</div>
+	
+	<div class="endbuttons">
+		<button>Delete</button>
+		<button>Add</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+	main {
+		color: rgb(177, 233, 80);
+		font-size: 30px;
+		text-align: center;
+		background-image: url(./images/Background.png);
+		background-size: cover;
+		height: 80vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	#trans {
+		opacity: .70;
+	}
+
+	footer {
+		display: grid;
+		grid-template-columns: 75% 25%;
+		gap: 1rem;
+		background-color: rgb(0, 0, 0);
+		width: 100vw;
+	}
+	
+	#links {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 20px;
+		font-size: 2rem;
+	}
+	
+	#images {
+		padding-right: 15px;
+	}
+	
+	#social {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 5px;
+		list-style-type: none;
+	}
+	
+	a:link {
+		color: white;
+		background-color: transparent;
+		text-decoration: none;
+	}
+		
+	a:visited {
+		color: white;
+		background-color: transparent;
+	}
+
+	a:hover {
+		color: white;
+		background-color: transparent;
+		text-decoration: underline;
+	}
+	
+	monthhdr {
+		background-color: rgb(0, 0, 0, .70);
+		grid-column: span 7;
+	}
+
+	spacer1 {
+		grid-column: span 4;
+	}
+
+	spacer2 {
+		grid-column: span 2;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: repeat(7, 100px);
+		gap: 1.5rem;
+	}
+
+	day {
+		background-color: rgba(0, 0, 0, .8);
+		border-radius: 4px;
+		color: rgba(255, 255, 255, 0.945);
+		text-align: right;
+		padding-bottom: 20px;
+		outline-style: double;
+		outline-color: black;
+	}
+	
+    @font-face {
+		font-family: 'Studio Sans ExtraLight';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Studio Sans ExtraLight'), url('StudioSans Extra Light.woff') format('woff');
+	}
+    
+   html {
+	   font-family: 'Studio Sans ExtraLight';
+   }

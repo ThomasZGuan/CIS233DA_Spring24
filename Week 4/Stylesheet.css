@@ -1,0 +1,67 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(221, 221, 221);  
+	float: left;
+	border: 1px solid;
+}
+
+li:not(:last-child) {
+  border-right: none; 
+}
+
+#active {
+	background-color: rgb(187, 187, 187);
+}
+
+#scroll {
+	height: 200px;
+	width: 300px;
+	overflow-y: scroll;
+}
+
+.endbuttons button {
+  background-color: rgb(221, 221, 221); 
+  border: 1px solid; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+  margin-right: 15px;
+  margin-top: 40px;
+}
+
+.endbuttons button:nth-child(2) {
+	background: rgb(170, 170, 170);
+}
+
+.endbuttons button:not(:last-child) {
+  margin-left: 105px
+}
+
+.buttonlist button {
+	background-color: rgb(221, 221, 221); 
+	border: 1px solid; 
+	padding: 10px 24px; 
+	cursor: pointer; 
+	width: 100%; 
+	display: block; 
+}
+
+.buttonlist button:not(:last-child) {
+	border-bottom: none; 
+}
+
+.buttonlist button:nth-child(even) {
+	background: rgb(238, 238, 238);
+}
+
